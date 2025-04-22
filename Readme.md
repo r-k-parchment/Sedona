@@ -2,6 +2,7 @@
 
 * Студент: [Коротаев Роман](https://htmlacademy.ru/profile/id1848365).
 * Наставник: `Неизвестно`.
+* Мой проект: [Sedona](https://r-k-parchment.github.io/Sedona/).
 
 ---
 
