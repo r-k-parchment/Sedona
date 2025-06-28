@@ -7,11 +7,15 @@
   <!-- Если быстро не решается пропускай ошибку, делай не идеально-->
   <body>
     <header class="page-header">
-      <a class="page-header-logo"><img src="#" alt="Логотип Седона" /></a>
+      <a class="page-header-logo" href="index.html">
+        <img src="#" alt="Логотип Седона" />
+      </a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="">Главная</a>
+            <a class="navigation-link" href="index.html" aria-current="page"
+              >Главная</a
+            >
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="">О Седоне</a>
@@ -47,7 +51,7 @@
         alt="Добро пожаловать в великолепную Седону, потому, что Гранд-каньон - это полный отстой!"
       />
       <section class="advantages">
-        <h2 class="visuallu-hidden">Преимущества Седоны</h2>
+        <h2 class="visually-hidden">Преимущества Седоны</h2>
         <p class="advantages-intro">
           Седона — небольшой городок в Аризоне, заслуживающий большего!
         </p>
@@ -76,7 +80,7 @@
         <img class="canyon" src="#" />
       </section>
       <section class="services">
-        <h2 class="visuallu-hidden">Наш сервис</h2>
+        <h2 class="visually-hidden">Наш сервис</h2>
         <p class="services-intro">
           Приезжайте в Седону отдохнуть в комфорте и уюте!
         </p>
@@ -99,7 +103,7 @@
         </dl>
       </section>
       <section class="booking">
-        <h2 class="visuallu-hidden">Забронировать номер</h2>
+        <h2 class="visually-hidden">Забронировать номер</h2>
         <p class="booking-intro">Заинтересовались?</p>
         <p class="booking-text">
           Укажите предполагаемые даты поездки,и мы покажем вам лучшие
@@ -109,19 +113,35 @@
           >Поиск гостинницы в Седоне</a
         >
       </section>
-    </main>
-    <footer>
       <section class="subscription">
+        <h2 class="visually-hidden">Подписаться</h2>
         <p>Подпишитесь на рассылку</p>
         <p>
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
-        <form action="https://echo.htmlacademy.ru/courses" method="post">
-          <input name="e-mail-field" type="text">
-          <input type="submit" value="Подписаться">
+        <form class="newsletter-form" action="https://echo.htmlacademy.ru/courses" method="post">
+          <input name="e-mail-field" type="text" />
+          <input type="submit" value="Подписаться" />
         </form>
       </section>
-      <section class="contacts"></section>
+    </main>
+    <footer class="page-footer">
+      <section class="footer-contacts">
+        <h2 class="visually-hidden">Контакты</h2>
+        <ul class="footer-contacts-list">
+          <li>
+            <a class="visually-hidden" class="footer-contacts-vk" href="#">вконтакте</a>
+          </li>
+          <li>
+            <a class="visually-hidden" class="footer-contacts-tg" href="#">телеграмм</a>
+          </li>
+          <li>
+            <a class="visually-hidden" class="footer-contacts-yt" href="#">ютуб</a>
+          </li>
+          <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+          <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="#" alt="Логотип HTMLAcademy"></a>
+        </ul>
+      </section>
     </footer>
   </body>
 </html>
