@@ -34,7 +34,7 @@
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="">
-              <span class="visually-hidden">Избранное</span>
+              <span class="visually-hidden">В избранном: </span><span>12</span>
             </a>
           </li>
           <li class="navigation-item">
@@ -120,25 +120,26 @@
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/courses" method="post">
-          <input name="e-mail-field" type="text" />
-          <input type="submit" value="Подписаться" />
+          <label for="newsletter-email">Email</label>
+          <input class="field" placeholder="Ваш e-mail" name="newsletter-email" id="newsletter-email" type="email" required />
+          <button class="button newsletter-button"  type="submit">Подписаться</button>
         </form>
       </section>
     </main>
     <footer class="page-footer">
-      <section class="footer-contacts">
+      <section class="contacts">
         <h2 class="visually-hidden">Контакты</h2>
-        <ul class="footer-contacts-list">
+        <ul class="contacts-list">
           <li>
-            <a class="visually-hidden" class="footer-contacts-vk" href="#">вконтакте</a>
+            <a class="visually-hidden" class="contacts-vk" href="#">вконтакте</a>
           </li>
           <li>
-            <a class="visually-hidden" class="footer-contacts-tg" href="#">телеграмм</a>
+            <a class="visually-hidden" class="contacts-tg" href="#">телеграмм</a>
           </li>
           <li>
-            <a class="visually-hidden" class="footer-contacts-yt" href="#">ютуб</a>
+            <a class="visually-hidden" class="contacts-yt" href="#">ютуб</a>
           </li>
-          <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+          <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
           <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="#" alt="Логотип HTMLAcademy"></a>
         </ul>
       </section>
